@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/27ae60c133.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.jpeg" class="logo1">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Fresher</p>
+                <h2>Hi, I'm <span>Ekta</span> Patel,<br> from Sagar MP</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img2.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p>My name is Ekta Patel , a recent graduate with a btech cse from Infinity management and engineering college sagar. I am eager to begin my career and excited about the opportunities ahead.
+                        I am a quick learner, adaptable, and possess strong problem-solving skills. I am also a team player and enjoy collaborating with others to achieve a common goal.
+                        In my free time, I enjoy sketching and reading books, which helps me stay refreshed and creative.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Trainings & Experiences</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C/C++</span><br>Object Oriented Programming Concepts</li>
+                            <li><span>JAVA</span><br>Core java, Advance java(learning)</li>
+                            <li><span>Python</span><br> Pandas & Matplotlib Library</li>
+                            <li><span>Frontend Development</span><br>Web Designing & Development...HTML,CSS,Reactjs(basic)</li>
+                            <li><span>Backend Development</span><br>Nodejs ,Expressjs</li>
+                            <li><span>Database</span><br>SQL,MongoDB(basic)</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Full Stack Java (May 2023) </span><br>9 months training on Full Stack Java from Eduinq(May 2023 to Present) <a href="https://github.com/EktaPatel-01/OIBSIP"> Projects</a></li>
+                            <li><span>OASIS Internship (May 2023) </span><br>Completed 1 month Internship on HTML and CSS and also completed 3 projects on designing.  <a href="https://github.com/EktaPatel-01/OIBSIP"> Projects</a> </li>
+                            <li><span>Verzeo Edutech Internship</span><br>Backend Developer intern at Verzeo Edutech for 2 months.Worked on different Technologies like nodejs,expressjs and MongoDB and also completed 2 projects. </li>
+                            <li><span>Cisco Training Program</span><br>Completed CyberOps Associate training at Cisco Networking Academy.
+                                Networking Academy </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Graduation (2019-2023)</span><br>B-tech from Computer Science from Infinity management and
+                                engineering College.CGPA - 8.96 cgpa.</li>
+                            <li><span>12th (2018-2019)</span><br>12th (PCM) from Abhyuday Public School.Pertentage-83%</li>
+                            <li><span>10th (2016-2017)</span><br>10th from Abhyuday Public School.Percentage-90%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Servies</h1>
+            <div class="services-list">
+                
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Data Analysis</h2>
+                    <p>As a data analyst, my role involves importing data, performing data cleaning and exploration, calculating metrics, and visualizing performance using Python. I also conduct risk analysis, optimize, evaluate performance against benchmarks, and communicate findings to stakeholders</p>
+                    <a href="https://github.com/EktaPatel-01/Sales-Data-Analysis/blob/90c98a590c2956be730711dbe4301608da23c6e7/SalesDA.pdf">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+                    <p>Specialize in creating visually stunning and user-friendly websites. With expertise in responsive design, and e-commerce solutions, I offer comprehensive services for businesses seeking a strong online presence. Contact me to discuss how I can help bring your web design vision to life</p>
+                    <a href=" https://codesandbox.io/s/funny-voice-pj46zy?file=/index.html:9099-9160">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>My Art Work</h2>
+                    <p>Sketching is my beloved hobby, as it allows me to unleash my creativity and express my unique perspective on the world. With each stroke of the pencil, I feel a sense of tranquility and joy, immersing myself in the art of capturing moments and emotions on paper. Sketching helps me observe details, appreciate beauty in everyday life, and preserve memories through my artistic interpretations</p>
+                    <a href=" http://ektapatel-01.github.io/My_ArtGallery.github.io/">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/DataA.png" height="450px">
+                    <div class="layer">
+                        <h3>Data Analysis on Sales </h3>
+                        <p> The project I worked on involved analyzing 3 months of sales data using the Python programming language. The objective of the project was to identify trends and patterns in the data that could be used to make business decisions.
+                            To analyze the data, I used pandas, which is a powerful data manipulation library in Python. It allowed me to clean, transform and manipulate the data easily. I also used matplotlib to visualize the data in various charts and graphs to help identify trends and patterns.
+                        </p>
+                        </p>
+                        <a href="https://github.com/EktaPatel-01/Sales-Data-Analysis/blob/90c98a590c2956be730711dbe4301608da23c6e7/SalesDA.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/EMTravel.png" height="450px">
+                    <div class="layer">
+                        <h3>EM-Travels-Tour Planning Website</h3>
+                        <p> The Tour Planning Website is an innovative online platform designed to assist users in planning their ideal trips based on their preferences and requirements. By incorporating user inputs such as the number of days for the trip, type of travelers (couples, family, friends), budget constraints, and desired trip themes (adventurous, religious, romantic), the 
+                            website generates personalized recommendations for the best destination places.
+                            Technologies used are-(Frontend-JSP,HTML,CSS....Backend-Java and its FrameWork)
+                        </p>
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/chtapp.jpg" height="450px">
+                    <div class="layer">
+                        <h3>Chat App- Using Nodejs</h3>
+                        <p> This project is a real-time chat application developed using Node.js for the backend and React for the frontend. It enables users to communicate in real-time through text messages. The Node.js backend utilizes Express.js for handling HTTP requests, Socket.io for real-time communication, and a database for storing user information and chat history. The React frontend creates an interactive user interface that displays chat messages, user lists, and allows for sending messages. Socket.io facilitates bidirectional communication 
+                            between the frontend and backend for instant message delivery. Additional features like user authentication, private messaging, and message notifications can be implemented.</p>
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See More</a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ektapatel152001@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>6266262528</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+                    </div>
+                    <a href="images/EKTA's Resume (6).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ekta <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby39OUE4BK8RBAIQ273XKyWB4oQjUKO0CvRWUEz4GEBkwj46sxt8sq33axPyuyWIoDF/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Response sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
